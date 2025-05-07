@@ -1,0 +1,17 @@
+body {
+  background-color: aquamarine;
+  font-family: "Courier New", Courier, monospace;
+}
+form {
+  flex-direction: center;
+  padding: 4px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@media (min-width: 375px) and (max-width: 425px) {
+  .parent-content-container {
+    flex-direction: row;
+  }
+}
